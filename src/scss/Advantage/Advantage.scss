@@ -2,7 +2,7 @@
 
 .list_benefits {
   display: grid;
-  grid-template-columns: 362px 400px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 61px 112px;
 }
 
