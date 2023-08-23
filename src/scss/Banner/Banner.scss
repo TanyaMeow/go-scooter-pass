@@ -21,7 +21,7 @@
 }
 
 .banner_container {
-  margin-top: 90px;
+  margin-top: 124px;
 }
 
 .title_banner {
@@ -29,6 +29,7 @@
 }
 
 .title_join {
+  margin-top: 72px;
   font-family: "YS Text Bold", serif;
   font-size: 72px;
   line-height: 100%;
@@ -54,22 +55,26 @@
 }
 
 .old_price {
+  margin-left: 35px;
+  z-index: -1;
+  position: absolute;
   color: #808080;
   font-family: "YS Text Medium", serif;
   font-size: 16px;
   height: 33px;
   display: inline-flex;
-  width: 115px;
+  width: 102px;
   border-radius: 500px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 12px;
 }
 
 .banner_image {
   display: block;
   position: absolute;
-  top: 0;
+  top: 60px;
   right: 77px;
   z-index: -1;
   &:before {
@@ -86,4 +91,19 @@
     background: #8241EF;
     filter: blur(100px);
   }
+}
+
+.circle {
+  position: absolute;
+  bottom: 162px;
+  right: 385px;
+}
+
+.banner_price {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.join_button {
+  margin-top: 20px;
 }
