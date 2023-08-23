@@ -1,0 +1,30 @@
+@media (max-width: 920px) {
+  .list_benefits {gap: 61px 72px}
+}
+
+@media (max-width: 580px) {
+  .list_benefits {
+    gap: 24px;
+  }
+
+  .benefit_description {
+    margin: 0 0 0 16px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .title_ad {
+    margin: 42px 0 32px;
+    font-size: 33px;
+    letter-spacing: -0.64px;
+  }
+
+  .benefit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+      width: 83px;
+    }
+  }
+}
