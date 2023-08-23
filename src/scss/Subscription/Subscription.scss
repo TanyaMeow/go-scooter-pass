@@ -13,6 +13,8 @@
   filter: blur(100px);
 }
 
+.subscription_block {margin-top: 104px;}
+
 .subscription_container {
   display: grid;
   grid-template-columns: repeat(2, 500px);
@@ -29,7 +31,8 @@
   }
   .subscription_description{
     font-family: "YS Text Medium", sans-serif;
-    font-size: Common.$font-size24
+    font-size: Common.$font-size24;
+    line-height: 120%;
   }
 }
 
