@@ -13,12 +13,15 @@
   filter: blur(100px);
 }
 
+.top_title, .container_image_scooter {height: 500px}
+
 .subscription_block {margin-top: 104px;}
 
 .subscription_container {
   display: grid;
-  grid-template-columns: repeat(2, 500px);
-  grid-template-rows: repeat(2, 560px);
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(560px, 1fr));
+  grid-auto-flow: dense;
 }
 
 .subscription_title {

@@ -1,3 +1,26 @@
+@media (max-width: 840px) {
+  .subscription_block {margin-top: 0}
+
+  .container_image_scooter{display: none}
+
+  .container_image_group {
+    display: flex;
+    position: relative;
+    left: 202px;
+    justify-content: center;
+  }
+
+  .subscription_container {
+    grid-template-columns: repeat(1, minmax(400px, 1fr));
+    grid-template-rows: repeat(3, minmax(400px, 1fr));
+  }
+
+  .bottom_title {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 @media (max-width: 580px) {
 
   .subscription_block {margin: 0}
@@ -19,7 +42,7 @@
   }
 
   .subscription_button {
-    margin-top: 48px;
+    margin-top: 32px;
   }
 
   .image_plus {display: none}
@@ -36,6 +59,11 @@
   }
 
   .container_image_scooter{display: none}
+
+  .container_image_group {
+    position: static;
+    display: block;
+  }
 
   .circle_group {
     height: 358px;
