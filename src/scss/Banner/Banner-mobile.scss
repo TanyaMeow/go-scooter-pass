@@ -18,6 +18,10 @@
   }
 }
 
+@media (min-width: 480px) {
+  .join_button_center {margin-right: 0 !important;}
+}
+
 @media (min-width: 920px) {
   .button {display: none}
 }

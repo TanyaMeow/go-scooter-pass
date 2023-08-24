@@ -12,12 +12,11 @@
   display: grid;
   grid-template-areas:  "left right"
                         "left right";
-  //grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
   gap: 15px;
 }
 
-.slide_1, .slide_2, .slide_3, .slide_4 {
+.slide {
   border-radius: 64px;
   object-fit: cover;
   height: 455px;
@@ -44,7 +43,7 @@
   position: absolute;
 }
 
-.slide_2, .slide_4 {
+.column {
   position: relative;
   bottom: 210px;
 }

@@ -49,7 +49,10 @@ button {
   background: #FFDE40;
   box-shadow: 0 4px 98px 0 rgba(255, 222, 64, 0.59);
   border-radius: 36px;
-  &:hover {cursor: pointer}
+  &:hover {
+    cursor: pointer;
+
+  }
 }
 
 @media  (max-width: 580px) {
