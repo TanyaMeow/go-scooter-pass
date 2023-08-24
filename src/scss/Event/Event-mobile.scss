@@ -1,3 +1,5 @@
+@use "../Common";
+
 @media (max-width: 580px) {
   .event_title_text {
     letter-spacing: -0.64px;
@@ -7,7 +9,7 @@
 
   .event_description {
     margin: 32px 0 47px 0;
-    font-size: 16px;
+    font-size: Common.$font-size16;
     max-width: 280px;
   }
 }

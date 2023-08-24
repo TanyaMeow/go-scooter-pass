@@ -1,3 +1,5 @@
+@use "../Common";
+
 @media (max-width: 920px) {
   .list_benefits {gap: 61px 72px}
 }
@@ -9,7 +11,7 @@
 
   .benefit_description {
     margin: 0 0 0 16px;
-    font-size: 16px;
+    font-size: Common.$font-size16;
     line-height: 120%;
   }
 
