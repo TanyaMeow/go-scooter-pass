@@ -37,6 +37,12 @@
     position: fixed;
   }
 
+  .join_button_center {
+    display: flex;
+    justify-content: center;
+    margin-right: 32px;
+  }
+
   .title_join {
     margin-top: 32px;
     font-size: 36px;
